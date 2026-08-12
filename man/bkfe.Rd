@@ -69,9 +69,9 @@ Wand, M. P. and Jones, M. C. (1995).
 Chapman and Hall, London.
 }
 \examples{
-data(geyser, package="MASS")
+if(length(data(geyser, package="MASS"))) {
 x <- geyser$duration
 est <- bkfe(x, drv=4, bandwidth=0.3)
-}
+}}
 \keyword{smooth}
 % Converted by Sd2Rd version 0.2-a5.

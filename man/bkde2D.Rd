@@ -80,12 +80,12 @@ Chapman and Hall, London.
   \code{\link{bkde}}, \code{\link{density}}, \code{\link{hist}}.
 }
 \examples{
-data(geyser, package="MASS")
+if(length(data(geyser, package="MASS"))) {
 x <- cbind(geyser$duration, geyser$waiting)
 est <- bkde2D(x, bandwidth=c(0.7, 7))
 contour(est$x1, est$x2, est$fhat)
 persp(est$fhat)
-}
+}}
 \keyword{distribution}
 \keyword{smooth}
 % Converted by Sd2Rd version 0.2-a5.

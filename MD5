@@ -1,4 +1,4 @@
-4b543a321d62c9c1d3d08a3ca7267df9 *DESCRIPTION
+bbc0484107832d17a2d6ca5769bd544b *DESCRIPTION
 2e0dc36e93da6190c3a98daee12adf01 *LICENCE.note
 a93c919c53d25488f67acbe057fff7ed *NAMESPACE
 03f78181304b9153b1e4821183c936d1 *PORTING
@@ -9,13 +9,13 @@ d9da8d060aabcac31a78a4136deadd7a *inst/po/fr/LC_MESSAGES/R-KernSmooth.mo
 0861d3aa8a0c343390962a13254e00b5 *inst/po/it/LC_MESSAGES/R-KernSmooth.mo
 c50853aa561b1b4f2b362a175d446810 *inst/po/ko/LC_MESSAGES/R-KernSmooth.mo
 00277c141a221f99f581d023fe02a3da *inst/po/pl/LC_MESSAGES/R-KernSmooth.mo
-5d3191a31c18771ff347a327a834406a *man/bkde.Rd
-b18f6ce168f418c6447707cd895d9bb0 *man/bkde2D.Rd
-77a421e3a7df14f85a303fd7c3cb45db *man/bkfe.Rd
-2cdc0085930d42760d8f9ae4c0d4557f *man/dpih.Rd
-e9d58f063bb33cd05bb14a80fb6bfcbd *man/dpik.Rd
-e7ddab232fd0c2c20b6eac503229ca89 *man/dpill.Rd
-2fb0ede2945d4b26db4e0c165c4761cc *man/locpoly.Rd
+0ceb2ff54171e31fef09f99f944ce33f *man/bkde.Rd
+82a4dfa28d5efb055445533516513008 *man/bkde2D.Rd
+690323d980100cd630a87bc3f03a0aca *man/bkfe.Rd
+7bffb97da52243d9091ed598c86201b6 *man/dpih.Rd
+31ecb9fa2b550a7c71124da1a058af2b *man/dpik.Rd
+772647706c6212b541fbee1f971827c1 *man/dpill.Rd
+842040c3144ddb3bb2ca881a276c3cac *man/locpoly.Rd
 b6870ad7671b1d6d5bee1c4f3b8fc8c2 *po/R-KernSmooth.pot
 cab9cdeb7784c020aef11ee4114a260e *po/R-de.po
 94d57bcc365b08a1670184a33c65f724 *po/R-fr.po

@@ -89,13 +89,13 @@ Chapman and Hall, London.
 \code{\link{ksmooth}}, \code{\link{locpoly}}.
 }
 \examples{
-data(geyser, package = "MASS")
+if(length(data(geyser, package="MASS"))) {
 x <- geyser$duration
 y <- geyser$waiting
 plot(x, y)
 h <- dpill(x, y)
 fit <- locpoly(x, y, bandwidth = h)
 lines(fit)
-}
+}}
 \keyword{smooth}
 % Converted by Sd2Rd version 0.2-a5.
