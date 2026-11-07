@@ -85,11 +85,11 @@ Chapman and Hall, London.
   \code{\link{ksmooth}}.
 }
 \examples{
-data(geyser, package="MASS")
+if(length(data(geyser, package="MASS"))) {
 x <- geyser$duration
 est <- bkde(x, bandwidth=0.25)
 plot(est, type="l")
-}
+}}
 \keyword{distribution}
 \keyword{smooth}
 % Converted by Sd2Rd version 0.2-a5.

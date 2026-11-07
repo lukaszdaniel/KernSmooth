@@ -80,11 +80,11 @@ Data-based choice of histogram binwidth.
   \code{\link{hist}}
 }
 \examples{
-data(geyser, package="MASS")
+if(length(data(geyser, package="MASS"))) {
 x <- geyser$duration
 h <- dpih(x)
 bins <- seq(min(x)-h, max(x)+h, by=h)
 hist(x, breaks=bins)
-}
+}}
 \keyword{smooth}
 

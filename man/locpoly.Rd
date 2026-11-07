@@ -101,7 +101,7 @@ Chapman and Hall, London.
   \code{\link{supsmu}}.
 }
 \examples{
-data(geyser, package = "MASS")
+if(length(data(geyser, package="MASS"))) {
 # local linear density estimate
 x <- geyser$duration
 est <- locpoly(x, bandwidth = 0.25)
@@ -112,7 +112,7 @@ y <- geyser$waiting
 plot(x, y)
 fit <- locpoly(x, y, bandwidth = 0.25)
 lines(fit)
-}
+}}
 \keyword{smooth}
 \keyword{regression}
 % Converted by Sd2Rd version 0.2-a5.

@@ -89,11 +89,11 @@ Chapman and Hall, London.
 \code{\link{bkde}}, \code{\link{density}}, \code{\link{ksmooth}}
 }
 \examples{
-data(geyser, package="MASS")
+if(length(data(geyser, package="MASS"))) {
 x <- geyser$duration
 h <- dpik(x)
 est <- bkde(x, bandwidth=h)
 plot(est,type="l")
-}
+}}
 \keyword{smooth}
 % Converted by Sd2Rd version 0.2-a5.
